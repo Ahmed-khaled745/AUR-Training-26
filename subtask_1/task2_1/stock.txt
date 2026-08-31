@@ -1,0 +1,4 @@
+banana,7
+apple,7
+mango,7
+grape,1

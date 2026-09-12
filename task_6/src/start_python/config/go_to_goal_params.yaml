@@ -1,0 +1,15 @@
+go_to_goal:
+  ros__parameters:
+    goal_x: 10.0
+    goal_y: 10.0
+    linear_gain: 1.5
+    angular_gain: 6.0
+    distance_tolerance: 0.1
+    angle_tolerance: 0.1
+    loop_rate_hz: 10.0
+    service_name: "start_navigation"
+
+go_to_goal_client:
+  ros__parameters:
+    service_name: "start_navigation"
+    start_delay: 5.0

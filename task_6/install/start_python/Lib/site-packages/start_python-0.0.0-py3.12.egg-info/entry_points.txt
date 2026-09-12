@@ -1,0 +1,5 @@
+[console_scripts]
+first_node = start_python.first_node:main
+go_to_goal = start_python.GoToGoal:main
+go_to_goal_client = start_python.go_to_goal_client:main
+publisher = start_python.publisher:main
